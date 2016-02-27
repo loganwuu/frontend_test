@@ -56,7 +56,7 @@ li{
 
 
 #nav li{
-	margin: 0 0 15px 0;	
+	margin: 0 0 15px 0;
 	list-style: none;
 	padding-bottom: 5px;
 }
@@ -96,7 +96,7 @@ li{
 .brand-logo{
 	text-align:right;
 	padding:15px;
-	background-color:#fff;	
+	background-color:#fff;
 }
 
 .navbar{
@@ -207,7 +207,7 @@ header{
   	-o-background-size: contain;
   	background-size: contain;
   	color: #fff;
-	
+
 }
 
 .expo-banner h1, .expo-banner h2, .expo-banner h3, .expo-banner h4, .expo-banner h5, .expo-banner h6{
@@ -379,6 +379,11 @@ button.close:hover{
 	font-size: 18px;
 	color: #fff;
 	font-weight: bold;
+}
+
+.flex-item {
+	display: block
+	text-align: center;
 }
 
 #TPCcountdown h1, #TPCcountdown h2, #TPCcountdown h3, #TPCcountdown h4, #TPCcountdown h5, #TPCcountdown h6{
@@ -600,21 +605,43 @@ button.close:hover{
 .btn, .btn-large, .btn-small, .btn-mini{
 	text-transform: capitalize;
 	color: #fff;
-	-moz-box-shadow:    0 9px 8px -3px #000000;
-  	-webkit-box-shadow: 0 9px 8px -3px #000000;
-  	box-shadow:         0 9px 8px -3px #000000;
-  	padding: 15px 30px;
-  	border: none;
-  	border-radius: 6px;
-  	-webkit-border-radius: 6px;
-  	/*0px 5px 7px -2px #000000*/
+	padding: 15px 30px;
+	border: none;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	/*0px 5px 7px -2px #000000*/
 }
 
-.btn.nav-btn, .btn-large.nav-btn, .btn-small.nav-btn, .btn-mini.nav-btn{
+.btn:hover, .btn-large:hover, .btn-small:hover, .btn-mini:hover,
+.btn:focus, .btn-large:focus, .btn-small:focus, .btn-mini:focus,
+.btn:active, .btn-large:active, .btn-small:active, .btn-mini:active {
+	background-image: linear-gradient(to bottom, rgba(215, 25, 30, 0.8), rgba(151, 18, 21, 0.8));
+	background: -webkit-linear-gradient(top, rgba(215, 25, 30, 0.8) 50%, rgba(151, 18, 21, 0.8) 100%);
+}
+
+.btn:active, .btn-large:active, .btn-small:active, .btn-mini:active {
 	-moz-box-shadow:    0px 5px 7px -2px #000000;
-  	-webkit-box-shadow: 0px 5px 7px -2px #000000;
-  	box-shadow:         0px 5px 7px -2px #000000;
-  	border: none;
+	-webkit-box-shadow: 0px 5px 7px -2px #000000;
+	box-shadow:         0px 5px 7px -2px #000000;
+	padding: 14px 40px 16px;
+}
+
+.btn.btn-navbar.collapsed:active {
+	padding: 10px 20px;
+}
+
+.btn.nav-btn:hover, .btn-large.nav-btn:hover, .btn-small.nav-btn:hover, .btn-mini.nav-btn:hover,
+.btn.nav-btn:focus, .btn-large.nav-btn:focus, .btn-small.nav-btn:focus, .btn-mini.nav-btn:focus,
+.btn.nav-btn:active, .btn-large.nav-btn:active, .btn-small.nav-btn:active, .btn-mini.nav-btn:active {
+	background-image: linear-gradient(to bottom, rgba(215, 25, 30, 0.8), rgba(151, 18, 21, 0.8));
+	background: -webkit-linear-gradient(top, rgba(215, 25, 30, 0.8) 50%, rgba(151, 18, 21, 0.8) 100%);
+}
+
+.btn.nav-btn:active, .btn-large.nav-btn:active, .btn-small.nav-btn:active, .btn-mini.nav-btn:active {
+	-moz-box-shadow:    0px 5px 7px -2px #000000;
+	-webkit-box-shadow: 0px 5px 7px -2px #000000;
+	box-shadow:         0px 5px 7px -2px #000000;
+	padding: 11px 30px 9px;
 }
 
 .btn.red, .btn-large.red, .btn-large.red.reg-caps, .btn-small.red, .btn-mini.red, .btn.sign-up.red, .btn-large.sign-up.red{
@@ -804,9 +831,8 @@ ul.header-list{
 ul.header-list li{
 	display: inline;
 	list-style: none;
-	padding-right: 20px;
 	right: 0;
-	
+
 }
 
 .feature-tab{
@@ -1018,7 +1044,7 @@ label{
 
 .offset-block{
 	margin-left: -1px;
-	
+
 }
 
 .offset-block2{
@@ -1273,7 +1299,7 @@ hr{
   background-color: #fff;
   position: relative;
 }
-  
+
 #nav-disable{
   height: 100%;
   width: 100%;
@@ -1282,7 +1308,7 @@ hr{
 }
 
 .sponsor-tabs{
-	overflow: hidden;	
+	overflow: hidden;
 }
 
 	/*BUTTON STYLES*/
@@ -1347,7 +1373,7 @@ li.section_items:last-child{
 .border-box-noborder {
 	padding: 15px 35px;
 	border: 0px solid #e2e2e2;
-	
+
 }
 
 .border-box-gray{
@@ -1520,6 +1546,10 @@ border: 1px solid #d2d6c3 !important;
 
 .vert-padding-bottom20{
 	padding-bottom: 20px;
+}
+
+.vert-padding-bottom5 {
+	padding-bottom: 5px;
 }
 
 .vert-padding-top100{
@@ -1720,17 +1750,17 @@ margin-bottom: 5px;
 }
 
 .anchor{
-	display: block; 
+	display: block;
 	position: relative;
 	height: 125px;
-	margin-top: -125px; 
+	margin-top: -125px;
 	visibility: hidden;
 }
 
 .scroll-to-anchor{
-	display: block; 
-	position: relative; 
-	top: -75px; 
+	display: block;
+	position: relative;
+	top: -75px;
 	visibility: hidden;
 }
 
@@ -1897,7 +1927,7 @@ display:none !important;
 	height: 50px;
 	font-size: 40px;
 	color: #fff;
-	-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;
 	-moz-transition: background 0.1s linear 0s;
 	-o-transition: background 0.1s linear 0s;
 	transition: background 0.1s linear 0s;
@@ -1930,7 +1960,7 @@ display:none !important;
 	height: 40px;
 	font-size: 40px;
 	color: #fff;
-	-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;
 	-moz-transition: background 0.1s linear 0s;
 	-o-transition: background 0.1s linear 0s;
 	transition: background 0.1s linear 0s;
@@ -1961,7 +1991,7 @@ display:none !important;
 	height: 40px;
 	font-size: 40px;
 	color: #fff;
-	-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;
 	-moz-transition: background 0.1s linear 0s;
 	-o-transition: background 0.1s linear 0s;
 	transition: background 0.1s linear 0s;
@@ -1991,7 +2021,7 @@ display:none !important;
 	height: 50px;
 	font-size: 40px;
 	color: #fff;
-	-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;
 	-moz-transition: background 0.1s linear 0s;
 	-o-transition: background 0.1s linear 0s;
 	transition: background 0.1s linear 0s;
@@ -2021,7 +2051,7 @@ display:none !important;
 	height: 40px;
 	font-size: 40px;
 	color: #fff;
-	-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;
 	-moz-transition: background 0.1s linear 0s;
 	-o-transition: background 0.1s linear 0s;
 	transition: background 0.1s linear 0s;
@@ -2051,7 +2081,7 @@ display:none !important;
 	height: 40px;
 	font-size: 40px;
 	color: #fff;
-	-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;
 	-moz-transition: background 0.1s linear 0s;
 	-o-transition: background 0.1s linear 0s;
 	transition: background 0.1s linear 0s;
@@ -2076,7 +2106,7 @@ display:none !important;
 	width: 50px;
 	height: 50px;
 	z-index: 99;
-	-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;
 	-moz-transition: background 0.1s linear 0s;
 	-o-transition: background 0.1s linear 0s;
 	transition: background 0.1s linear 0s;
@@ -2097,7 +2127,7 @@ display:none !important;
 }
 
 #back-to-top i {
-	margin-left: -7px;	
+	margin-left: -7px;
 }
 
 /*end SMOOTH SCROLLER STYLES*/
@@ -2134,7 +2164,7 @@ display:none !important;
 }
 
 /*This will prevent the nav items from breaking down to a new line before we want them to*/
-@media (min-width: 1277px) and (max-width: 1392px) {
+ (min-width: 1277px) and (max-width: 1392px) {
 	#top-navigation > ul.nav > li > a{
 		margin-right: 5px;
 		font-size: 15px;
@@ -2168,8 +2198,8 @@ display:none !important;
 	.mobile-bot-margin-10{
 		margin-bottom: 10px;
 	}
-	
-	
+
+
 }
 
 @media (max-width: 768px){
@@ -2190,20 +2220,20 @@ display:none !important;
 	.wider-boxquote-shadow img{
 		float: right;
 	}
-	
+
 	#nextsection-higher {
 	margin: -30px 0 0;
 	}
-	
+
 
 }
 
 @media (min-width: 769px) and (max-width:979px){
-	
+
 	#nextsection-higher {
 	margin: -30px 0 0;
 	}
-	
+
 
 }
 
@@ -2264,13 +2294,9 @@ display:none !important;
 	.mobile-hide{
 		display: none;
 	}
-	
+
 	ul.header-list {
 	  padding: 0 0 0 0;
-	}
-	
-	ul.header-list > li.mobile-hide{
-		display: none;
 	}
 
 	.mobile-bot-margin-10{
@@ -2377,12 +2403,22 @@ display:none !important;
 	.footer-links.footer-menu > ul > .inline li{
 		font-size: 13px;
 	}
-	
-.gen-logo {
-margin: 0 0 0 0;
 }
-	
 
+@media (max-width: 587px) {
+	ul.header-list > li.mobile-hide {
+		display: none;
+	}
+
+	.gen-logo {
+	margin: 10px 0 0 0;
+	}
+
+	ul.header-list {
+		display: flex;
+		justify-content: center;
+		align-items:center;
+	}
 }
 
 /*END MOBILE FIXES*/
