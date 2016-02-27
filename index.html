@@ -62,7 +62,7 @@
         $(function () {
           var austDay = new Date();
           austDay = new Date(2015, 10-1, 11, 12);
-          $('#TPCcountdown').countdown({until: austDay, format: 'DHMS', layout:'<div class="row"><div class="vert-padding-top10 mobile-countdown"><h5 class="white-text">Countdown to TEAM Polycom 2014</h5><div class="vert-padding-bottom10"><div class="padding-left15 mobile-countdown"><div class="span1 countdown-number no-margin"><b>{dnn}</b><br /><b class="unbold">DAYS</b></div><div class="span1 countdown-number no-margin"><b>{hnn}</b><br /><b class="unbold">HOURS</b></div><div class="span1 countdown-number no-margin"><b>{mnn}</b><br /><b class="unbold">MINS</b></div><div class="span1 countdown-number no-margin"><b>{snn}</b><br /><b class="unbold">SECS</b></div></div></div></div></div>'});
+          $('#TPCcountdown').countdown({until: austDay, format: 'DHMS', layout:'<div class="row"><div class="vert-padding-top10 vert-padding-bottom20 mobile-countdown"><h5 class="white-text">Countdown to TEAM Polycom 2014</h5><div class="flex-item"><div class="countdown-number no-margin"><b>{dnn}</b><br /><b class="unbold">DAYS</b></div><div class="countdown-number no-margin"><b>{hnn}</b><br /><b class="unbold">HOURS</b></div><div class="countdown-number no-margin"><b>{mnn}</b><br /><b class="unbold">MINS</b></div><div class="countdown-number no-margin"><b>{snn}</b><br /><b class="unbold">SECS</b></div></div></div></div>'});
           });
     </script>
 <!-- <div class="span4 sub-countdown bottom-shadow-gray"></div> -->
@@ -252,34 +252,27 @@ Together we’ll <strong>Turn It ON!</strong>
                     </div>
                     <div class="span12">
                       <div id="TPCcountdown" class="ie-sub-countdown"></div>
-                        <div class="row vert-padding-top25 mobile-center">
-
-						  <div class="span3 blue-text mobile-bot-margin-10  <!--[if IE 8]>
-						  ie-small-text
-						   <![endif]-->">
-                              Justify Your trip - Download the <BR />
-							  <strong><a href="assets/docs/justify-your-trip.doc" class="blue-text">Attendance Approval Letter</a></strong> <BR />Now
-							  </div>
-                          <div class="span1 neg6">
-                            <a href="assets/docs/justify-your-trip.doc" class="btn btn-cta blue-btn index-mobile-button">Download</a>
-                          </div>
+                      <div class="vert-padding-top25 mobile-center float-left container2">
+					              <div class="span3 blue-text mobile-bot-margin-10 vert-margin-bottom10 <!--[if IE 8]>ie-small-text <![endif]-->">
+                          Justify Your trip - Download the <strong><a href="assets/docs/justify-your-trip.doc" class="blue-text">Attendance Approval Letter</a></strong> Now
+						            </div>
+                        <div class="float-right">
+                          <a href="assets/docs/justify-your-trip.doc" class="btn btn-cta blue-btn index-mobile-button">Download</a>
                         </div>
-						 <div class="row vert-padding-top25 mobile-center">
-
-						  <div class="span2 blue-text mobile-bot-margin-10  <!--[if IE 8]>
-						  ie-small-text
-						   <![endif]-->">
-                              Agenda Builder now Live!
-							  </div>
-                          <div class="span2 ">
-                            <a href="http://myevent.regsvc.com/?dbGuid=b8e39049-70ee-41fe-b110-e0ba0e9f6611&eventID=2&servertype=5" class="btn btn-cta red index-mobile-button">Build&nbsp;Agenda</a>
-                          </div>
+                      </div>
+          						<div class="vert-padding-top25 mobile-center float-right container2">
+          						  <div class="span2 blue-text mobile-bot-margin-10 vert-margin-bottom10 <!--[if IE 8]>ie-small-text <![endif]-->">
+                            Agenda Builder now Live!
+						            </div>
+                        <div class="float-right">
+                          <a href="http://myevent.regsvc.com/?dbGuid=b8e39049-70ee-41fe-b110-e0ba0e9f6611&eventID=2&servertype=5" class="btn btn-cta red index-mobile-button">Build&nbsp;Agenda</a>
                         </div>
                       </div>
                     </div>
-                  </div><!-- /.row for Welcome message and Countdown Clock -->
-                </div><!-- /.container for sub-slider-features -->
-              </section>
+                  </div>
+                </div><!-- /.row for Welcome message and Countdown Clock -->
+              </div><!-- /.container for sub-slider-features -->
+            </section>
 
             <a class="scroll-to-anchor" id="content3"></a>
             <section class='section-wrapper white bottom-shadow-gray section-top-border-thicker-ie section-bottom-border-thicker-ie'>

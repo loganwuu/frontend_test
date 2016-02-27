@@ -382,8 +382,9 @@ button.close:hover{
 }
 
 .flex-item {
-	display: block
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #TPCcountdown h1, #TPCcountdown h2, #TPCcountdown h3, #TPCcountdown h4, #TPCcountdown h5, #TPCcountdown h6{
@@ -391,8 +392,10 @@ button.close:hover{
 }
 
 .countdown-number{
+	font-size: 16px;
 	border-right: 1px solid #fff;
-	padding: 5px;
+	padding: 0 21px 0 20px;
+	text-align: center;
 }
 
 .countdown-number:last-child{
@@ -2189,6 +2192,7 @@ display:none !important;
 		width: 0;
 		display: table-cell;
 		font-size: 16px;
+		text-align: center;
 	}
 
 	.mobile-center{
@@ -2233,8 +2237,6 @@ display:none !important;
 	#nextsection-higher {
 	margin: -30px 0 0;
 	}
-
-
 }
 
 @media (max-width: 500px){
@@ -2282,9 +2284,11 @@ display:none !important;
 	}
 
 	.countdown-number{
-		padding: 0 5px 0 15px;
+		font-size: 16px;
+		padding: 0 60px 0 15px;
 		width: 0;
 		display: table-cell;
+		text-align: center;
 	}
 
 	.mobile-center{

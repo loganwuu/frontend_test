@@ -653,7 +653,7 @@ h4 {
   font-size: 18.75px;
 }
 h5 {
-  font-size: 15px;
+  font-size: 16px;
 }
 h6 {
   font-size: 12.75px;
@@ -10811,5 +10811,57 @@ table.no-margin {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
+  }
+}
+
+/*for two buttons on the same line*/
+.container2 {
+  display: inline-block;
+}
+
+.float-left {
+  float: left;
+  width: 50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.float-right {
+  float: right;
+  width: 50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+@media (max-width: 980px) {
+  .float-left {
+    float: left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .float-right {
+    float: right;
+    width: 50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+}
+
+@media (max-width: 763px) {
+  .float-left {
+    float: left;
+    display: block;
+    width: 100%;
+  }
+
+  .float-right {
+    float: none;
+    display: inline-block;
+    width: 100%;
   }
 }
