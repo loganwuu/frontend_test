@@ -1,0 +1,130 @@
+#rotating-image-wrapper {
+	position: relative;
+	width: 460px;
+	height: 287px;
+}
+#rotating-text-wrapper {
+	position: relative;
+	width: 85%;
+	height: 172px;
+	margin: 20px 0 0 40px;
+	padding: 20px 0 0;
+}
+#rotating-text-wrapper2 {
+	position: relative;
+	width: 350px;
+	height: 130px;
+	margin: 20px 0 0 70px;
+	padding: 20px 0 0;
+}
+#rotating-quote-wrapper {
+	position: relative;
+	width: 100%;
+	height: 215px;
+
+}
+.rotating-image {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.rotating-text {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.rotating-text2 {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media (max-width: 768px){
+	.rotating-text{
+		width: 100%;
+	}
+
+	.rotating-text2{
+		width: 100%;
+	}
+	
+	#rotating-quote-wrapper {
+		position: relative;
+		width: 90%;
+		height: 165px;
+		margin: 20px 0 0 40px;
+	}
+}
+
+
+.rotating-quote {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media (max-width: 500px){
+
+#rotating-text-wrapper {
+	position: relative;
+	width: 300px;
+	height: 180px;
+	margin: 0px 0 0 0px;
+	padding: 0px 0 0 0px;
+}
+
+#rotating-text-wrapper2 {
+	position: relative;
+	width: 300px;
+	height: 180px;
+	margin: 0px 0 0 0px;
+	padding: 0px 0 0 0px;
+}
+
+#rotating-quote-wrapper {
+	position: relative;
+	width: 100%;
+	height: 150px;
+
+}
+
+#rotating-image-wrapper {
+	position: relative;
+	width: 330px;
+	height: 287px;
+}
+
+.rotating-text {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+
+	.rotating-quote-wrapper, .rotating-text{
+		width: 70%;
+		font-size: 80%;
+	}
+
+	.rotating-quote-wrapper img{
+		/*width: 50%;*/
+		display: none;
+	}
+	.mobile-blockquote{
+		padding-left:  40px;
+		margin-top: 20px;
+		margin-left: 0px;
+		
+	}
+	
+	.rotating-quote .span2 img
+	{
+		display: none;
+	}
+}

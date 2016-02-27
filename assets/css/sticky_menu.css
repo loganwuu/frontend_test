@@ -1,0 +1,3 @@
+.nav-container{}
+    .f-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;} /* this make our menu fixed top */
+    
