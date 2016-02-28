@@ -164,6 +164,7 @@ header{
 
 .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled]{
 	background-color: #353533;
+
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
@@ -626,7 +627,7 @@ button.close:hover{
 	-moz-box-shadow:    0px 5px 7px -2px #000000;
 	-webkit-box-shadow: 0px 5px 7px -2px #000000;
 	box-shadow:         0px 5px 7px -2px #000000;
-	padding: 14px 40px 16px;
+	padding: 14px auto 16px;
 }
 
 .btn.btn-navbar.collapsed:active {
@@ -1563,6 +1564,10 @@ border: 1px solid #d2d6c3 !important;
 	padding-top: 50px;
 }
 
+.vert-padding-top30{
+	padding-top: 30px;
+}
+
 .vert-padding-top20{
 	padding-top: 20px;
 }
@@ -1599,6 +1604,10 @@ border: 1px solid #d2d6c3 !important;
 
 .vert-margin-top50{
 	margin-top: 50px;
+}
+
+.vert-margin-top40{
+	margin-top: 40px;
 }
 
 .vert-margin-top25{
@@ -2184,7 +2193,6 @@ display:none !important;
 @media (min-width: 1129px) and (max-width: 1276px){
 	#top-navigation > ul.nav > li > a{
 		margin-right: 0;
-		font-size: 15px;
 	}
 
 	.countdown-number{

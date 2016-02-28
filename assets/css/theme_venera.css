@@ -8297,6 +8297,11 @@ li.L9 {
   font-weight: 300;
   font-size: 18px;
 }
+@media (max-width: 1391px) {
+  #top-navigation > ul.nav > li > a {
+    font-size: 14px;
+  }
+}
 /* Accont control links on top right corder, next to top navigation */
 .top-account-control {
   float: right;
@@ -10836,23 +10841,18 @@ table.no-margin {
 }
 
 @media (max-width: 980px) {
-  .float-left {
-    float: left;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-
-  .float-right {
-    float: right;
-    width: 50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  [class*="span"] {
+    margin-left: 0
   }
 }
 
 @media (max-width: 763px) {
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .float-left {
     float: left;
     display: block;
@@ -10860,7 +10860,7 @@ table.no-margin {
   }
 
   .float-right {
-    float: none;
+    float: left;
     display: inline-block;
     width: 100%;
   }
