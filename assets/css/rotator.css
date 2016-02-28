@@ -14,7 +14,6 @@
 	position: relative;
 	width: 350px;
 	height: 130px;
-	margin: 20px 0 0 70px;
 	padding: 20px 0 0;
 }
 #rotating-quote-wrapper {
@@ -40,7 +39,7 @@
 .rotating-text2 {
 	display: none;
 	position: absolute;
-	top: 0;
+	top: 10px;
 	left: 0;
 }
 
@@ -50,7 +49,7 @@
 	}
 
 	.rotating-text2{
-		width: 400px;
+/*		width: 400px;*/
 	}
 }
 
@@ -74,7 +73,7 @@
 
 #rotating-text-wrapper2 {
 	position: relative;
-	width: 300px;
+	width: 100%;
 	height: 180px;
 	margin: 0px 0 0 0px;
 	padding: 0px 0 0 0px;

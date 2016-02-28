@@ -2438,3 +2438,13 @@ iframe[seamless]{
 #grd75407, #grd75399, #grd75418, #grd75419, #grd76061  {
 width:900px !important;
 }
+
+.ie-block-quote-left-justifited .ie-extra-padding20 .vert-padding-bottom50 .blockquote-border .ie-no-border {
+	margin: 0;
+}
+
+.margin-extra {
+	margin: 0 40px;
+}
+
+
