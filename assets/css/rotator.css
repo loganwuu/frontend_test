@@ -21,7 +21,7 @@
 	position: relative;
 	width: 100%;
 	height: 150px;
-
+	left: 52px;
 }
 .rotating-image {
 	display: none;
@@ -34,7 +34,7 @@
 	display: none;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -20px;
 }
 
 .rotating-text2 {
@@ -58,7 +58,7 @@
 .rotating-quote {
 	display: none;
 	position: absolute;
-	top: 0;
+	top: 15px;
 	left: 0;
 }
 
@@ -113,9 +113,9 @@
 		padding-left:  40px;
 		margin-top: 20px;
 		margin-left: 0px;
-		
+
 	}
-	
+
 	.rotating-quote .span2 img
 	{
 		display: none;
