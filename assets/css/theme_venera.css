@@ -9131,7 +9131,7 @@ li.L9 {
 /* Can be used to separte sections of the website */
 .section-wrapper {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
   /* Add a stripped background to a section */
 
   /* Area under a slider - adding a border to separate visually */
@@ -9589,7 +9589,6 @@ table.no-margin {
 }
 .deep-footer .footer-links {
   margin: 0px;
-  text-align: right;
 }
 .deep-footer .footer-links li {
   display: inline-block;

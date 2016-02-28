@@ -787,9 +787,9 @@ a[title]:hover:after, .lb-data .lb-caption, .lb-data .lb-caption h1, .lb-data .l
 }
 
 .deep-footer .footer-links{
-	text-align: left;
 	color: #4F4E4C;
 	padding: 0;
+	background: #fff;
 }
 
 .deep-footer .footer-links li a{
@@ -805,7 +805,7 @@ a[title]:hover:after, .lb-data .lb-caption, .lb-data .lb-caption h1, .lb-data .l
 	background-color: #fff;
 	border-top: 2px solid #DEDEDE;
 	height: 50px;
-	/*padding: 0 0 20px 0;*/
+	text-align: center;
 }
 
 .deep-footer .btn{
@@ -1265,7 +1265,7 @@ label{
 	box-shadow: 0 13px 10px 4px #BFBFBF;
 }
 .bottom-shadow-gray{
-	box-shadow: 0 13px 10px 4px #BFBFBF;
+box-shadow: 0 10px 10px -2px #BFBFBF;
 }
 .bottom-shadow-blue{
 	box-shadow: 0 13px 10px 4px #223448;
