@@ -10890,6 +10890,7 @@ table.no-margin {
 
   .primary {
     padding-left: 0;
+    margin-bottom: 20px;
   }
 
   .secondary {
@@ -10917,6 +10918,10 @@ table.no-margin {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .primary {
+    margin-bottom: 0;
   }
 
   .secondary {
