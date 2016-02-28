@@ -2488,3 +2488,9 @@ a.btn-large:active {
 		padding-right: 0;
 	}
 }
+ 
+@media (max-width: 1200px) {
+	.padding-bottom36 {
+    	padding-bottom: 36px;
+  	}
+}

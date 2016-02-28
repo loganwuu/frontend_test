@@ -9790,7 +9790,7 @@ table.no-margin {
     width: 270px;
   }
   .span2 {
-    width: 170px;
+    width: 147px;
   }
   .span1 {
     width: 70px;
@@ -10481,7 +10481,6 @@ table.no-margin {
   [class*="span"],
   .uneditable-input[class*="span"],
   .row-fluid [class*="span"] {
-    float: none;
     display: block;
     width: 100%;
     margin-left: 0;
@@ -10937,6 +10936,12 @@ table.no-margin {
 
 .navbar .container {
   padding: 10px 0;
+}
+
+@media (max-width: 980px) {
+  .span2 {
+    width: 125px;
+  }
 }
 
 /*--- Swaping image and text on Expo.html ---*/
