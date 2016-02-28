@@ -367,6 +367,7 @@ button.close:hover{
 .hasCountdown{
 	border: none;
 }
+
 #TPCcountdown{
 	background-image: linear-gradient(to bottom, #49688B, #283D58);
 	background: -webkit-linear-gradient(top,#49688B 50%, #283D58 100%); /* Chrome10+,Safari5.1+ */
@@ -2470,4 +2471,9 @@ iframe[seamless]{
 
 #grd75407, #grd75399, #grd75418, #grd75419, #grd76061  {
 width:900px !important;
+}
+
+a.btn-large:active {
+  padding-top: 16px;
+  padding-bottom: 14px;
 }

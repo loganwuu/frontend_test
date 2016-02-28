@@ -256,7 +256,6 @@ a:focus {
 [class*="span"] {
   float: left;
   min-height: 1px;
-  margin-left: 20px;
 }
 .container,
 .navbar-static-top .container,
@@ -9052,7 +9051,7 @@ li.L9 {
 }
 .slider-w .slider-browser-left {
   width: 30%;
-  left: 5%;
+  left: 2%;
 }
 .slider-w .slider-browser-left:hover {
   left: 1px;
@@ -9060,16 +9059,16 @@ li.L9 {
 .slider-w .slider-browser-center {
   width: 40%;
   left: 50%;
-  margin-left: -18%;
+  margin-left: -20%;
   z-index: 1;
 }
 .slider-w .slider-browser-right {
   width: 30%;
-  right: -2%;
+  right: 0;
 }
 
 .slider-w .slider-browser-right:hover {
-  right: -75px;
+  right: -35px;
 }
 /* Area under slider - with icons, can be used for description of features */
 .sub-slider-features {
@@ -10834,9 +10833,8 @@ table.no-margin {
 .float-right {
   float: right;
   width: 50%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: flex-end;
 }
 
 @media (max-width: 980px) {
@@ -10865,6 +10863,74 @@ table.no-margin {
   }
 }
 
-.fullwidth {
-  width: 100%;
+.container3 {
+  margin: 0 auto;
 }
+
+.col {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media (min-width: 980px) {
+
+  .container3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .col {
+    float: left;
+  }
+
+  .primary,
+  .secondary {
+    width: 47%;
+  }
+
+  .primary {
+    padding-left: 0;
+  }
+
+  .secondary {
+    padding-top: 20px;
+    padding-right: 0;
+  }
+
+  /* ---- Float clearfix ---- */
+  .clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .container {
+    width: 80%;
+    max-width: 1150px;
+  }
+
+  .primary,
+  .secondary {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .secondary {
+    padding-top: 0;
+  }
+}
+
+.btn-large:active,
+.btn:active {
+  padding-top: 16px;
+  padding-bottom: 14px;
+}
+
+.navbar .container {
+  padding: 10px 0;
+}
+
